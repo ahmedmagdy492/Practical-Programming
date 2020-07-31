@@ -1,0 +1,7 @@
+C:\Users\Ahmed Magdy\source\repos\HowToExecuteCommand\HowToExecuteCommand\bin\Debug\HowToExecuteCommand.exe.config
+C:\Users\Ahmed Magdy\source\repos\HowToExecuteCommand\HowToExecuteCommand\bin\Debug\HowToExecuteCommand.exe
+C:\Users\Ahmed Magdy\source\repos\HowToExecuteCommand\HowToExecuteCommand\bin\Debug\HowToExecuteCommand.pdb
+C:\Users\Ahmed Magdy\source\repos\HowToExecuteCommand\HowToExecuteCommand\obj\Debug\HowToExecuteCommand.csprojAssemblyReference.cache
+C:\Users\Ahmed Magdy\source\repos\HowToExecuteCommand\HowToExecuteCommand\obj\Debug\HowToExecuteCommand.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Magdy\source\repos\HowToExecuteCommand\HowToExecuteCommand\obj\Debug\HowToExecuteCommand.exe
+C:\Users\Ahmed Magdy\source\repos\HowToExecuteCommand\HowToExecuteCommand\obj\Debug\HowToExecuteCommand.pdb
