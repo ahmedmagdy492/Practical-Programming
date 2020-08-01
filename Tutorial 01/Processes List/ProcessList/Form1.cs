@@ -37,5 +37,10 @@ namespace ProcessList
                 process.Kill();
             }
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            lsProcess.DataSource = Process.GetProcesses();
+        }
     }
 }

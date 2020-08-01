@@ -8,3 +8,13 @@ C:\Users\Ahmed Magdy\Documents\Visual Studio Stuff\Projects\ProcessList\ProcessL
 C:\Users\Ahmed Magdy\Documents\Visual Studio Stuff\Projects\ProcessList\ProcessList\obj\Debug\ProcessList.csproj.CoreCompileInputs.cache
 C:\Users\Ahmed Magdy\Documents\Visual Studio Stuff\Projects\ProcessList\ProcessList\obj\Debug\ProcessList.exe
 C:\Users\Ahmed Magdy\Documents\Visual Studio Stuff\Projects\ProcessList\ProcessList\obj\Debug\ProcessList.pdb
+F:\Practical Programming\Tutorial 01\Processes List\ProcessList\bin\Debug\ProcessList.exe.config
+F:\Practical Programming\Tutorial 01\Processes List\ProcessList\bin\Debug\ProcessList.exe
+F:\Practical Programming\Tutorial 01\Processes List\ProcessList\bin\Debug\ProcessList.pdb
+F:\Practical Programming\Tutorial 01\Processes List\ProcessList\obj\Debug\ProcessList.csprojAssemblyReference.cache
+F:\Practical Programming\Tutorial 01\Processes List\ProcessList\obj\Debug\ProcessList.Form1.resources
+F:\Practical Programming\Tutorial 01\Processes List\ProcessList\obj\Debug\ProcessList.Properties.Resources.resources
+F:\Practical Programming\Tutorial 01\Processes List\ProcessList\obj\Debug\ProcessList.csproj.GenerateResource.cache
+F:\Practical Programming\Tutorial 01\Processes List\ProcessList\obj\Debug\ProcessList.csproj.CoreCompileInputs.cache
+F:\Practical Programming\Tutorial 01\Processes List\ProcessList\obj\Debug\ProcessList.exe
+F:\Practical Programming\Tutorial 01\Processes List\ProcessList\obj\Debug\ProcessList.pdb
