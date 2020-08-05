@@ -1,0 +1,10 @@
+F:\Practical Programming\Tutorial 01\Project\When To Sleep\When To Sleep\bin\Debug\When To Sleep.exe.config
+F:\Practical Programming\Tutorial 01\Project\When To Sleep\When To Sleep\bin\Debug\When To Sleep.exe
+F:\Practical Programming\Tutorial 01\Project\When To Sleep\When To Sleep\bin\Debug\When To Sleep.pdb
+F:\Practical Programming\Tutorial 01\Project\When To Sleep\When To Sleep\obj\Debug\When To Sleep.csprojAssemblyReference.cache
+F:\Practical Programming\Tutorial 01\Project\When To Sleep\When To Sleep\obj\Debug\When_To_Sleep.Form1.resources
+F:\Practical Programming\Tutorial 01\Project\When To Sleep\When To Sleep\obj\Debug\When_To_Sleep.Properties.Resources.resources
+F:\Practical Programming\Tutorial 01\Project\When To Sleep\When To Sleep\obj\Debug\When To Sleep.csproj.GenerateResource.cache
+F:\Practical Programming\Tutorial 01\Project\When To Sleep\When To Sleep\obj\Debug\When To Sleep.csproj.CoreCompileInputs.cache
+F:\Practical Programming\Tutorial 01\Project\When To Sleep\When To Sleep\obj\Debug\When To Sleep.exe
+F:\Practical Programming\Tutorial 01\Project\When To Sleep\When To Sleep\obj\Debug\When To Sleep.pdb
