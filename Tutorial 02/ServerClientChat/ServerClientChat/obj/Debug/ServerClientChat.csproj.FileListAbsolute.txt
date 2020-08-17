@@ -1,0 +1,10 @@
+F:\Practical Programming\Tutorial 02\ServerClientChat\ServerClientChat\bin\Debug\ServerClientChat.exe.config
+F:\Practical Programming\Tutorial 02\ServerClientChat\ServerClientChat\bin\Debug\ServerClientChat.exe
+F:\Practical Programming\Tutorial 02\ServerClientChat\ServerClientChat\bin\Debug\ServerClientChat.pdb
+F:\Practical Programming\Tutorial 02\ServerClientChat\ServerClientChat\obj\Debug\ServerClientChat.csprojAssemblyReference.cache
+F:\Practical Programming\Tutorial 02\ServerClientChat\ServerClientChat\obj\Debug\ServerClientChat.Form1.resources
+F:\Practical Programming\Tutorial 02\ServerClientChat\ServerClientChat\obj\Debug\ServerClientChat.Properties.Resources.resources
+F:\Practical Programming\Tutorial 02\ServerClientChat\ServerClientChat\obj\Debug\ServerClientChat.csproj.GenerateResource.cache
+F:\Practical Programming\Tutorial 02\ServerClientChat\ServerClientChat\obj\Debug\ServerClientChat.csproj.CoreCompileInputs.cache
+F:\Practical Programming\Tutorial 02\ServerClientChat\ServerClientChat\obj\Debug\ServerClientChat.exe
+F:\Practical Programming\Tutorial 02\ServerClientChat\ServerClientChat\obj\Debug\ServerClientChat.pdb
