@@ -8,3 +8,4 @@ F:\Practical Programming\Tutorial 02\ServerClientChat\ServerClientChat\obj\Debug
 F:\Practical Programming\Tutorial 02\ServerClientChat\ServerClientChat\obj\Debug\ServerClientChat.csproj.CoreCompileInputs.cache
 F:\Practical Programming\Tutorial 02\ServerClientChat\ServerClientChat\obj\Debug\ServerClientChat.exe
 F:\Practical Programming\Tutorial 02\ServerClientChat\ServerClientChat\obj\Debug\ServerClientChat.pdb
+F:\Practical Programming\Tutorial 02\ServerClientChat\ServerClientChat\obj\Debug\ServerClientChat.ChatForm.resources
