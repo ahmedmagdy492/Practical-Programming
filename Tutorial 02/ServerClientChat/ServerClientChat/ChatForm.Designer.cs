@@ -62,6 +62,7 @@
             this.btnSend.TabIndex = 1;
             this.btnSend.Text = "Send";
             this.btnSend.UseVisualStyleBackColor = true;
+            this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
             // lsMsgs
             // 
@@ -86,6 +87,7 @@
             this.Name = "ChatForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Chat";
+            this.Load += new System.EventHandler(this.ChatForm_Load);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);

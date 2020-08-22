@@ -32,7 +32,7 @@ namespace ServerClientChat
 
             clientSocket = await socket.AcceptAsync();
 
-            ChatForm chat = new ChatForm();
+            ChatForm chat = new ChatForm(clientSocket);
             chat.Text = socket.LocalEndPoint.ToString();
             chat.ShowDialog();
         }
@@ -41,7 +41,7 @@ namespace ServerClientChat
         {
             await socket.ConnectAsync(new IPEndPoint(new IPAddress(new byte[] { 127, 0, 0, 1}), PORT));
 
-            ChatForm chat = new ChatForm();
+            ChatForm chat = new ChatForm(socket);
             chat.Text = socket.LocalEndPoint.ToString();
             chat.ShowDialog();
         }
