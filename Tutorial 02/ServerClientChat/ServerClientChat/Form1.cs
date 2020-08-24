@@ -25,25 +25,39 @@ namespace ServerClientChat
 
         private async void btnStart_Click(object sender, EventArgs e)
         {
-            socket.Bind(new IPEndPoint(new IPAddress(new byte[] { 127, 0, 0, 1 }), PORT));
-            socket.Listen(5);
-            btnStart.Enabled = false;
-            btnStart.Text = "Listining on port " + PORT + ".....";
+            try
+            {
+                socket.Bind(new IPEndPoint(new IPAddress(new byte[] { 127, 0, 0, 1 }), PORT));
+                socket.Listen(5);
+                btnStart.Enabled = false;
+                btnStart.Text = "Listining on port " + PORT + ".....";
 
-            clientSocket = await socket.AcceptAsync();
+                clientSocket = await socket.AcceptAsync();
 
-            ChatForm chat = new ChatForm(clientSocket);
-            chat.Text = socket.LocalEndPoint.ToString();
-            chat.ShowDialog();
+                ChatForm chat = new ChatForm(clientSocket);
+                chat.Text = socket.LocalEndPoint.ToString();
+                chat.ShowDialog();
+            }
+            catch(SocketException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private async void btnConnect_Click(object sender, EventArgs e)
         {
-            await socket.ConnectAsync(new IPEndPoint(new IPAddress(new byte[] { 127, 0, 0, 1}), PORT));
+            try
+            {
+                await socket.ConnectAsync(new IPEndPoint(new IPAddress(new byte[] { 127, 0, 0, 1 }), PORT));
 
-            ChatForm chat = new ChatForm(socket);
-            chat.Text = socket.LocalEndPoint.ToString();
-            chat.ShowDialog();
+                ChatForm chat = new ChatForm(socket);
+                chat.Text = socket.LocalEndPoint.ToString();
+                chat.ShowDialog();
+            }
+            catch(SocketException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }
