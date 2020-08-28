@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncSocketServer", "AsyncSocketServer\AsyncSocketServer.csproj", "{0C31560C-5E68-4978-B699-E8FAE4C5CB3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLib", "SharedLib\SharedLib.csproj", "{ED6C3FFD-F69C-44AB-9826-9A43BE269C88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C31560C-5E68-4978-B699-E8FAE4C5CB3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C31560C-5E68-4978-B699-E8FAE4C5CB3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C31560C-5E68-4978-B699-E8FAE4C5CB3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C31560C-5E68-4978-B699-E8FAE4C5CB3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED6C3FFD-F69C-44AB-9826-9A43BE269C88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED6C3FFD-F69C-44AB-9826-9A43BE269C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED6C3FFD-F69C-44AB-9826-9A43BE269C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED6C3FFD-F69C-44AB-9826-9A43BE269C88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B87628E-BDFB-4E3F-8F21-892FF073D98E}
+	EndGlobalSection
+EndGlobal
