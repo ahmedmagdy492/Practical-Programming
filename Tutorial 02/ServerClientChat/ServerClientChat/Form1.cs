@@ -16,7 +16,7 @@ namespace ServerClientChat
     {
         private readonly Socket socket;
         private Socket clientSocket;
-        private const int PORT = 9999;
+        private const int PORT = 9000;
         public Form1()
         {
             InitializeComponent();

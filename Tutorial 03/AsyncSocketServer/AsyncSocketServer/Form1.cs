@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AsyncSocketServer.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,27 @@ namespace AsyncSocketServer
 {
     public partial class Form1 : Form
     {
+        private readonly Server server;
         public Form1()
         {
             InitializeComponent();
+            server = new Server();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            server.Init();
+            lblDesc.Text = "Server is Listening...";
+
+            Task.Run(async () =>
+            {
+                int counter = 0;
+                while (true)
+                {
+                    await server.Accept();
+                    lblDesc.Invoke(new Action(() => lblDesc.Text = $"clients: {++counter}"));
+                }
+            });
         }
     }
 }

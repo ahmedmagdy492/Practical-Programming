@@ -26,13 +26,14 @@ namespace AsyncSocketServer.Models
             serverSocket.Listen(10);
         }
 
-        public async void Accept()
+        public async Task Accept()
         {
             var client = await serverSocket.AcceptAsync();
             var pcClient = new ClientPC
             {
                 ClientSocket = client
             };
+            Clients.Add(pcClient);
         }
     }
 }

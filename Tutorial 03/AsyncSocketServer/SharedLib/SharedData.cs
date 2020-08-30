@@ -14,6 +14,6 @@ namespace SharedLib
         public const SocketType socketType = SocketType.Stream;
         public const ProtocolType protocolType = ProtocolType.Tcp;
         public static IPAddress serverAddress = new IPAddress(new byte[] {127,0,0,1 });
-        public const int PORT = 11111;
+        public const int PORT = 9000;
     }
 }

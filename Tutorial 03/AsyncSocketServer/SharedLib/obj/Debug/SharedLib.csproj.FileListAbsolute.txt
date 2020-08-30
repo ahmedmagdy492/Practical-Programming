@@ -1,0 +1,6 @@
+F:\Practical Programming\Tutorial 03\AsyncSocketServer\SharedLib\bin\Debug\SharedLib.dll
+F:\Practical Programming\Tutorial 03\AsyncSocketServer\SharedLib\bin\Debug\SharedLib.pdb
+F:\Practical Programming\Tutorial 03\AsyncSocketServer\SharedLib\obj\Debug\SharedLib.csprojAssemblyReference.cache
+F:\Practical Programming\Tutorial 03\AsyncSocketServer\SharedLib\obj\Debug\SharedLib.csproj.CoreCompileInputs.cache
+F:\Practical Programming\Tutorial 03\AsyncSocketServer\SharedLib\obj\Debug\SharedLib.dll
+F:\Practical Programming\Tutorial 03\AsyncSocketServer\SharedLib\obj\Debug\SharedLib.pdb
