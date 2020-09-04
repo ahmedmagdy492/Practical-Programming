@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncSocketServer", "AsyncS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLib", "SharedLib\SharedLib.csproj", "{ED6C3FFD-F69C-44AB-9826-9A43BE269C88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{154B00CD-BA2E-4F04-98B3-A200E9044AB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{ED6C3FFD-F69C-44AB-9826-9A43BE269C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED6C3FFD-F69C-44AB-9826-9A43BE269C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED6C3FFD-F69C-44AB-9826-9A43BE269C88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{154B00CD-BA2E-4F04-98B3-A200E9044AB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{154B00CD-BA2E-4F04-98B3-A200E9044AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{154B00CD-BA2E-4F04-98B3-A200E9044AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{154B00CD-BA2E-4F04-98B3-A200E9044AB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

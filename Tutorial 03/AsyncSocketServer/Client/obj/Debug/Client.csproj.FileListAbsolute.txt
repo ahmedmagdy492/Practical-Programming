@@ -1,0 +1,13 @@
+F:\Practical Programming\Tutorial 03\AsyncSocketServer\Client\bin\Debug\Client.exe.config
+F:\Practical Programming\Tutorial 03\AsyncSocketServer\Client\bin\Debug\Client.exe
+F:\Practical Programming\Tutorial 03\AsyncSocketServer\Client\bin\Debug\Client.pdb
+F:\Practical Programming\Tutorial 03\AsyncSocketServer\Client\bin\Debug\SharedLib.dll
+F:\Practical Programming\Tutorial 03\AsyncSocketServer\Client\bin\Debug\SharedLib.pdb
+F:\Practical Programming\Tutorial 03\AsyncSocketServer\Client\obj\Debug\Client.csprojAssemblyReference.cache
+F:\Practical Programming\Tutorial 03\AsyncSocketServer\Client\obj\Debug\Client.frmClient.resources
+F:\Practical Programming\Tutorial 03\AsyncSocketServer\Client\obj\Debug\Client.Properties.Resources.resources
+F:\Practical Programming\Tutorial 03\AsyncSocketServer\Client\obj\Debug\Client.csproj.GenerateResource.cache
+F:\Practical Programming\Tutorial 03\AsyncSocketServer\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+F:\Practical Programming\Tutorial 03\AsyncSocketServer\Client\obj\Debug\Client.csproj.CopyComplete
+F:\Practical Programming\Tutorial 03\AsyncSocketServer\Client\obj\Debug\Client.exe
+F:\Practical Programming\Tutorial 03\AsyncSocketServer\Client\obj\Debug\Client.pdb
