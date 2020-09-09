@@ -24,6 +24,23 @@ namespace Client
         {
             await client.Connect();
             lblStatus.Text = "Connected";
+
+            Task.Run(async () =>
+            {
+                while (true)
+                {
+                    if(client.Socket.Available> 0)
+                    {
+                        var data = await client.RecMsg();
+                        MessageBox.Show(data);
+                    }
+                }
+            });
+        }
+
+        private void frmClient_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = true;
         }
     }
 }

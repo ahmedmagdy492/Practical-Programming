@@ -35,5 +35,14 @@ namespace AsyncSocketServer
                 }
             });
         }
+
+        private async void btnOpen_Click(object sender, EventArgs e)
+        {
+            if(server.Clients.Count > 0)
+            {
+                var client = server.Clients[0];
+                await server.Send("OPEN", client.ClientSocket);
+            }
+        }
     }
 }

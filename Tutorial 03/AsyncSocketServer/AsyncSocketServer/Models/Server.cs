@@ -35,5 +35,12 @@ namespace AsyncSocketServer.Models
             };
             Clients.Add(pcClient);
         }
+
+        public async Task Send(string msg, Socket socket)
+        {
+            byte[] buffer = Encoding.UTF8.GetBytes(msg);
+
+            await socket.SendAsync(new ArraySegment<byte>(buffer), SocketFlags.None);
+        }
     }
 }
