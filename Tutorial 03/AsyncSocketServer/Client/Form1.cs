@@ -31,8 +31,11 @@ namespace Client
                 {
                     if(client.Socket.Available> 0)
                     {
-                        var data = await client.RecMsg();
-                        MessageBox.Show(data);
+                        var msg = await client.RecMsg();
+                        if(msg.Headers["Type"] == "OPEN")
+                        {
+                            this.Hide();
+                        }
                     }
                 }
             });

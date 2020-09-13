@@ -11,3 +11,5 @@ F:\Practical Programming\Tutorial 03\AsyncSocketServer\AsyncSocketServer\obj\Deb
 F:\Practical Programming\Tutorial 03\AsyncSocketServer\AsyncSocketServer\obj\Debug\AsyncSocketServer.csproj.CopyComplete
 F:\Practical Programming\Tutorial 03\AsyncSocketServer\AsyncSocketServer\obj\Debug\AsyncSocketServer.exe
 F:\Practical Programming\Tutorial 03\AsyncSocketServer\AsyncSocketServer\obj\Debug\AsyncSocketServer.pdb
+F:\Practical Programming\Tutorial 03\AsyncSocketServer\AsyncSocketServer\bin\Debug\Newtonsoft.Json.dll
+F:\Practical Programming\Tutorial 03\AsyncSocketServer\AsyncSocketServer\bin\Debug\Newtonsoft.Json.xml

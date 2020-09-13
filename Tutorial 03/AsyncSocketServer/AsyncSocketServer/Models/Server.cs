@@ -1,4 +1,5 @@
-﻿using SharedLib;
+﻿using Newtonsoft.Json;
+using SharedLib;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -36,11 +37,14 @@ namespace AsyncSocketServer.Models
             Clients.Add(pcClient);
         }
 
-        public async Task Send(string msg, Socket socket)
+        public async Task Send(string type, Socket socket)
         {
-            byte[] buffer = Encoding.UTF8.GetBytes(msg);
+            Message message = new Message();
+            message.Headers.Add("Type", type);
 
-            await socket.SendAsync(new ArraySegment<byte>(buffer), SocketFlags.None);
+            var strMsg = JsonConvert.SerializeObject(message);
+
+            await socket.SendAsync(new ArraySegment<byte>(Encoding.UTF8.GetBytes(strMsg)), SocketFlags.None);
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using SharedLib;
+﻿using Newtonsoft.Json;
+using SharedLib;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,12 +26,13 @@ namespace Client.Models
             await socket.ConnectAsync(new IPEndPoint(SharedData.serverAddress, SharedData.PORT));
         }
 
-        public async Task<string> RecMsg()
+        public async Task<Message> RecMsg()
         {
             var buffer = new byte[1024];
             var arrayseg = new ArraySegment<byte>(buffer);
-            int recSize = await socket.ReceiveAsync(arrayseg, SocketFlags.None);
-            var msg = Encoding.UTF8.GetString(arrayseg.Array);
+            await socket.ReceiveAsync(arrayseg, SocketFlags.None);
+            var msgStr = Encoding.UTF8.GetString(arrayseg.Array);
+            var msg = JsonConvert.DeserializeObject<Message>(msgStr);
             return msg;
         }
     }
